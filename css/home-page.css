@@ -1,0 +1,97 @@
+:root{
+    --light-text-color: #E7E7E7;
+}
+
+body{
+    font-family: 'Manrope';
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Stylings of the section one */
+#section-one{
+    background-color: #141414;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #141414;
+}
+
+.navbar-brand{
+    color: var(--light-text-color);
+    padding-left: 60px;
+}
+.navbar-nav{
+    padding-right: 40px;
+}
+.navbar-nav li a{
+    color: var(--light-text-color);
+}
+
+.sec-01-row-01{
+    /* background-color: rgba(250, 124, 124, 0.103); */
+    margin-top: 70px;
+}
+
+#company-name{
+    color: var(--light-text-color);
+    font-size: 130px;
+}
+#company-sub-title{
+    color: var(--light-text-color);
+}
+.part-01{
+    padding-left: 60px;
+    /* background-color: rgb(28, 82, 219); */
+}
+
+#sec-01-social-links{
+    list-style-type: none;
+    color: var(--light-text-color);
+    text-decoration: none;
+    margin-top: 40px;
+    /* background-color: rgb(255, 171, 171); */
+}
+
+.sec-01-row-02{
+    /* background-color: rgba(255, 255, 0, 0.103); */
+    margin-top: 10px;
+}
+
+.arrow-image{
+    width: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+#company-description{
+    color: var(--light-text-color);
+    font-weight: 300;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}
+#partners-text{
+    color: var(--light-text-color);
+}
+.part-02{
+    padding-left: 50px;
+}
+
+
+/* Stylings of the section two */
+#section-two{
+    background-color: white;
+    height: 100vh;
+}
+
+
+
